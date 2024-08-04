@@ -912,16 +912,124 @@ nav.scrolled a {
 }
 /*======== End offer Section =========*/
 
+/*======== Start awards & about more Section =========*/
+.choose_us_content{
+  display: flex;
+  gap:5rem;
+  justify-content: center;
+text-align: center;
+}
+.container_wrapper_about{
+  padding:6rem 0;
+}
+.image_user{
+  /* background-image: linear-gradient(rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)), url(images/weoffer.png); */
+
+  background-image: url(images/weoffer.png);
+  width: 50%;
+  height:530px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 35% 35% 0;
+  /* border: 5px solid #ff0000; */
+  position: relative;
+
+}
+ 
+.fa-play{
+  position:absolute;
+  right:0;
+  top:30px;
+  font-size:2.5rem;
+  padding:18px;
+  color:#FCAC45;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 1px 1px #d4d1d1;
+ 
+
+}
+.content_more_right{
+  text-align: left;
+}
+.content_more_right h1{
+  font-size: 2.5rem;
+  padding-top:5.5rem;
+  padding-bottom:0.7rem;
+}
+ .content_more_right h3{
+    font-size:1.7rem;
+    padding: 1rem ;
+
+ }
+ .content_more_right p{
+  padding-left: 1rem;
+
+ }
+
+
+/* for awards */
+.awards_wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.589), rgba(0, 0, 0, 0.5)),url(images/counter-bg.jpg);
+  width: 100%;
+  height: 290px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.award_center{
+  /* padding-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.awards_icon{
+  font-size:2.6rem;
+  color:#FCAC45;
+}
+.award_center p {
+  color:#F5F5F5;
+  padding-top:10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+
+}
+.counting{
+  font-size:2rem;
+  color:#F5F5F5;
+  border-bottom: 3px solid #FCAC45;
+  padding-bottom: 8px;
+  padding-top:3px;
+}
+
+/*======== End awards & about more Section =========*/
+
+
+
+
+
+
+
+
 /*======== Start work Section =========*/
 
 /*======== End work Section =========*/
 
-/*======== Start testimonial Section =========*/
 
-/*======== End testimonial Section =========*/
+
+
+
 /*======== Start blog Section =========*/
 
 /*======== End blog Section =========*/
+
+
+
+
 
 /*======== Start contact Section =========*/
 
