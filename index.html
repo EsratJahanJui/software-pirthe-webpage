@@ -23,6 +23,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- Link Swiper's CSS for blog post -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- ======== Header Part Start ========= -->
@@ -1218,84 +1223,84 @@
       <div class="container">
         <div class="swiper swiper_image_card container_slider_client_wrapper">
           <div class="swiper-wrapper client_slider">
-            <div class="slider_item">
+            <div class="swiper-slide slider_item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/12.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider_item">
+            <div class="swiper-slide slider_item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/11.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider_item">
+            <div class="swiper-slide slider_item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/10.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/9.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/8.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/7.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/6.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/5.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/4.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/3.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/2.png" alt="pirthe" />
                 </div>
               </div>
             </div>
-            <div class="slider-item">
+            <div class="swiper-slide slider-item">
               <div class="slider_image_box">
                 <div class="image_container">
                   <img src="images/clients/1.png" alt="pirthe" />
@@ -1303,7 +1308,6 @@
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -1332,12 +1336,429 @@
             </div>
             <div class="work_button_part">
               <ul class="work_button_list">
-                <li class="button_item">Valuable Project</li>
-                <li class="button_item">ERP</li>
-                <li class="button_item">Desktop Apps</li>
-                <li class="button_item">Web Apps</li>
-                <li class="button_item">Mobile Apps</li>
+                <li id="valuable_project" class="button_item">
+                  Valuable Project
+                </li>
+                <li id="erp_button" class="button_item">ERP</li>
+                <li id="desktop_button" class="button_item">Desktop Apps</li>
+                <li id="web_button" class="button_item">Web Apps</li>
+                <li id="mobile_button" class="button_item">Mobile Apps</li>
               </ul>
+            </div>
+            <div class="work_description_part">
+              <div class="work_des_wrapper">
+                <!-- valuable work -->
+                <div id="valuable_work" class="full_work_content work_hide">
+                  <!-- ==================1 -->
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/bepza.jpg" alt="sample work image" />
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/bepza.jpg"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Bangladesh Export Processing <br />
+                          Zones Authority (BEPZA)
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ==================2 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/pro.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/pro.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Proshika Non Government <br />
+                          Organization (NGO)
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ==================3 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/dex-1.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/dex-1.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">DIGI Lab Digonistic Center</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ===============4 -->
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/web-1.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/web-1.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Goverment Land Survey <br />
+                          Management
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ===========5 -->
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/web-2.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/web-2.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          VAT Management <br />
+                          System
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ===============6 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/mobile-2.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/mobile-2.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          BEPZA Whole ERP <br />
+                          Mobile App
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- ERP =============================================================================-->
+
+                <div id="erp" class="full_work_content work_hide">
+                  <!-- ==================1 -->
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/bepza.jpg" alt="sample work image" />
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/bepza.jpg"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Bangladesh Export Processing <br />
+                          Zones Authority (BEPZA)
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ==================2-->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/satt.jpeg" alt=" sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/satt.jpeg"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Online land records and survey <br />
+                          management
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ==================3 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/pro.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/pro.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Proshika Non Government <br />
+                          Organization (NGO)
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Desktop Apps -->
+
+                <div id="desktop_app" class="full_work_content work_hide">
+                  <!-- ==================1 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/dex-1.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/dex-1.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">DIGI Lab Digonistic Center</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ==================2 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/dex-2.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/dex-2.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">KMDC Digonistic Center</h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ==================3 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/dex-3.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/dex-3.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">Light Fair Trading</h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Web Apps -->
+
+                <div id="web_app" class="full_work_content work_hide">
+                  <!-- ===============1 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/web-1.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/web-1.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Goverment Land Survey <br />
+                          Management
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ===============2 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/web-2.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/web-2.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          VAT Management <br />
+                          System
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ===============3-->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/web-3.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/web-3.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Medical Management <br />
+                          System
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Mobile Apps -->
+                <div id="mobile_app" class="full_work_content work_hide">
+                  <!-- ===============1 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/mobile-1.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/mobile-1.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          Light Fair Inventory <br />
+                          & Orders App
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- ===============2 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/mobile-2.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/mobile-2.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          BEPZA Whole ERP <br />
+                          Mobile App
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- ===============3 -->
+
+                  <div class="des_item">
+                    <div class="des_img">
+                      <img src="images/mobile-3.png" alt="sample work image" />
+
+                      <div class="work_hover_wrapper">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                        <a href="images/mobile-3.png"
+                          ><i class="fa fa-camera"></i
+                        ></a>
+                      </div>
+                    </div>
+                    <div class="des_link_text">
+                      <a href="index.html#">
+                        <h3 class="des_text">
+                          DGDP ERP Mobile <br />
+                          Application
+                        </h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work_btn">
+              <div class="btn_center">
+                <a href="index.html#">Load More</a>
+              </div>
             </div>
           </div>
         </div>
@@ -1346,11 +1767,447 @@
 
     <!-- ============== End work Section ========== -->
     <!-- ============== Start blog Section ========== -->
-    <section id="blog_part"></section>
+
+    <section id="blog_part">
+      <div class="container">
+        <div class="container_all">
+          <div class="blog_wrapper">
+            <div class="offer_part_A blog_p">
+              <div class="span_wrapper"><span>Recent Posts.</span></div>
+              <div class="line_container_wrapper">
+                <div class="line_container">
+                  <div class="line long"></div>
+                  <div class="line short"></div>
+                </div>
+              </div>
+              <p class="p_font">
+                Reads Now Our Recent Projects Studies Click Out Our Latest News
+                & Artical.
+              </p>
+            </div>
+            <div class="swiper full_blog_content">
+              <div class="swiper-wrapper blog_content_wrapper">
+                <!-- =============================1 -->
+
+                <div class="swiper-slide blog_content blog_1">
+                  <div class="blog_img b_img1">
+                    <div class="main_img">
+                      <img src="images/bepza1.png" alt="pirthe blog image" />
+                      <div class="blog_inner_icon">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ======= -->
+
+                  <div class="blog_inner">
+                    <div class="blog_date">
+                      <h4>30</h4>
+                      <p>Sep.</p>
+                    </div>
+                  </div>
+
+                  <!-- ======= -->
+                  <div class="blog_des">
+                    <h4>
+                      BEPZA – Exceling with the <br />
+                      AUDIT Software of Pirthe
+                    </h4>
+                    <p>
+                      Pirthe’s consistent high-quality support for <br />
+                      operation and maintenance led BEPZA.
+                    </p>
+                    <a href="index.html#" class="blog_read_more"
+                      >Read More<i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- =============================2 -->
+
+                <div class="swiper-slide blog_content blog_1">
+                  <div class="blog_img b_img1">
+                    <div class="main_img">
+                      <img src="images/pro1.png" alt="pirthe blog image" />
+                      <div class="blog_inner_icon">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ======= -->
+
+                  <div class="blog_inner">
+                    <div class="blog_date">
+                      <h4>31</h4>
+                      <p>Sep.</p>
+                    </div>
+                  </div>
+
+                  <!-- ======= -->
+                  <div class="blog_des">
+                    <h4>
+                      Prosikha – Exceling with the <br />
+                      PFMS Software of Pirthe
+                    </h4>
+                    <p>
+                      Pirthe’s consistent high-quality support for <br />
+                      operation and maintenance led Prosikha.
+                    </p>
+                    <a href="index.html#" class="blog_read_more"
+                      >Read More<i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- =============================3 -->
+                <div class="swiper-slide blog_content blog_1">
+                  <div class="blog_img b_img1">
+                    <div class="main_img">
+                      <img src="images/satt.png" alt="pirthe blog image" />
+                      <div class="blog_inner_icon">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ======= -->
+
+                  <div class="blog_inner">
+                    <div class="blog_date">
+                      <h4>13</h4>
+                      <p>Oct.</p>
+                    </div>
+                  </div>
+
+                  <!-- ======= -->
+                  <div class="blog_des">
+                    <h4>
+                      Land Ministry – Exceling with <br />
+                      the Software of Pirthe
+                    </h4>
+                    <p>
+                      Pirthe’s consistent support for operation and <br />
+                      maintenance led Land Case and sattalements.
+                    </p>
+                    <a href="index.html#" class="blog_read_more"
+                      >Read More<i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- =============================4-->
+                <div class="swiper-slide blog_content blog_1">
+                  <div class="blog_img b_img1">
+                    <div class="main_img">
+                      <img src="images/dgdp.png" alt="pirthe blog image" />
+                      <div class="blog_inner_icon">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ======= -->
+
+                  <div class="blog_inner">
+                    <div class="blog_date">
+                      <h4>23</h4>
+                      <p>Nov.</p>
+                    </div>
+                  </div>
+
+                  <!-- ======= -->
+                  <div class="blog_des">
+                    <h4>
+                      DGDP – Exceling with the HRM <br />
+                      Software of Pirthe
+                    </h4>
+                    <p>
+                      Pirthe’s consistent high-quality support for <br />
+                      operation and maintenance led DGDP.
+                    </p>
+                    <a href="index.html#" class="blog_read_more"
+                      >Read More<i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- =============================5-->
+                <div class="swiper-slide blog_content blog_1">
+                  <div class="blog_img b_img1">
+                    <div class="main_img">
+                      <img src="images/satt.png" alt="pirthe blog image" />
+                      <div class="blog_inner_icon">
+                        <a href="index.html#"><i class="fa fa-link"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ======= -->
+
+                  <div class="blog_inner">
+                    <div class="blog_date">
+                      <h4>23</h4>
+                      <p>Nov.</p>
+                    </div>
+                  </div>
+
+                  <!-- ======= -->
+                  <div class="blog_des">
+                    <h4>
+                      DGDP – Exceling with the HRM <br />
+                      Software of Pirthe
+                    </h4>
+                    <p>
+                      Pirthe’s consistent high-quality support for <br />
+                      operation and maintenance led DGDP.
+                    </p>
+                    <a href="index.html#" class="blog_read_more"
+                      >Read More<i class="fa fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <!-- =============================6-->
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ============== End blog Section ========== -->
     <!-- ============== Start contact Section ========== -->
-    <section id="contact_part"></section>
+    <section id="contact_part">
+      <div class="container">
+        <div class="container_all">
+          <div class="full_contact_wrapper">
+            <div class="offer_part_A blog_p">
+              <div class="span_wrapper c_title">CONTACT <span>US</span></div>
+              <div class="line_container_wrapper">
+                <div class="line_container">
+                  <div class="line long"></div>
+                  <div class="line short"></div>
+                </div>
+              </div>
+              <p class="p_font">
+                Feel free to contact with us,Our goal is to help our companies
+                maintain or achieve best- in-class positions in their respective
+                industries and our team works.
+              </p>
+            </div>
+
+            <div class="contact_section_1">
+              <div class="section_1_container">
+                <div class="section_1_left contact_form">
+                  <form>
+                    <div class="form-group">
+                      <input type="text" placeholder="Full Name *" required />
+                      <input type="email" placeholder="Email *" required />
+                    </div>
+                    <div class="form-group">
+                      <input type="text" placeholder="Subject *" required />
+                      <input type="text" placeholder="Mobile *" required />
+                    </div>
+                    <div class="form-group">
+                      <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="contact_btn">
+                      <button type="submit">Submit Now</button>
+                    </div>
+                  </form>
+                </div>
+
+                <div class="section_1_right contact-info">
+                  <div class="info-item">
+                    <i class="fa-solid fa-phone contact-ph"></i>
+                    <div class="info-text">
+                      <p>Give us a Call</p>
+                      <span class="details">+88 02 8831680</span>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="info-item">
+                    <i class="fa-solid fa-envelope contact-ph"></i>
+                    <div class="info-text">
+                      <p>Send a Mail</p>
+                      <span class="details">info@pirithe.com</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="information_part">
+      <div class="container_all">
+        <div class="info_wrapper">
+          <div class="contact_section_2">
+            <div class="section_2_container">
+              <div class="info_part info_part_1">
+                <a href="http://pirthe.com/">
+                  <img src="images/logo.png" alt="Pirthe Logo" />
+                </a>
+                <p class="company_info">
+                  We are one of the best Information Technology <br />
+                  Company. Providing the highest quality in IT <br />
+                  solutions. About more than 3 years of experience <br />
+                  and 300+ of innovative achievements.At Pirthe Soft,<br />
+                  we offer a complete range of services that build up <br />
+                  business value, from the initial idea and formulation <br />
+                  of product strategy, through building a prototype <br />
+                  and testing it with users, right to the creation of <br />
+
+                  the product itself.
+                </p>
+                <div class="office_des">
+                  <p class="office_ad">
+                    <i class="fas fa-map-marker ad_icon"></i> Flat#: D/2, House
+                    No: 24/A, Road No: 42,<br />
+                    Gulshan- 2, Dhaka-1212
+                  </p>
+                  <p class="office_ad">
+                    <i class="fas fa-clock ad_icon"></i> Monday - Friday : 9 AM
+                    - 7 PM
+                  </p>
+                </div>
+              </div>
+
+              <div class="info_part info_part_2">
+                <p class="info_title">Information</p>
+                <ul class="info_des">
+                  <li class="info_des_link">
+                    <a href="index.html#"
+                      ><i class="fa fa-long-arrow-right des_link"></i>About
+                      Us</a
+                    >
+                  </li>
+                  <li class="info_des_link">
+                    <a href="index.html#"
+                      ><i class="fa fa-long-arrow-right des_link"></i>Delivery
+                      Information</a
+                    >
+                  </li>
+                  <li class="info_des_link">
+                    <a href="index.html#"
+                      ><i class="fa fa-long-arrow-right des_link"></i>Privacy
+                      Policy</a
+                    >
+                  </li>
+                  <li class="info_des_link">
+                    <a href="index.html#"
+                      ><i class="fa fa-long-arrow-right des_link"></i>Terms &
+                      Conditions</a
+                    >
+                  </li>
+                  <li class="info_des_link">
+                    <a href="index.html#"
+                      ><i class="fa fa-long-arrow-right des_link"></i>FAQ</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="info_part info_part_3">
+                <p class="info_title">Our Twitter</p>
+
+                <div class="tweets">
+                  <ul class="info_des">
+                    <li class="info_des_link info_border">
+                      <a href="index.html#" id="a_color" target="_blank"
+                        >@PIRTHE</a
+                      >
+
+                      <span class="info_color">
+                        Cum soluta nobis eleifend <br />
+                        option congue nihil imperdiet doming <br />
+                        <span>3 mins ago</span>
+                      </span>
+                    </li>
+
+                    <li class="info_des_link info_border p_top">
+                      <a href="index.html#" id="a_color" target="_blank"
+                        >@PIRTHE</a
+                      >
+
+                      <span class="info_color">
+                        Mirum est notare quam litt <br />
+                        era gothica, quam nunc putamus parum <br />
+
+                        <span>5 hours ago</span>
+                      </span>
+                    </li>
+                    <li class="info_des_link p_top">
+                      <a href="index.html#" id="a_color" target="_blank"
+                        >@PIRTHE</a
+                      >
+
+                      <span class="info_color">
+                        Soluta nobis option <br />
+                        <span>3 mins ago</span>
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="info_part info_part_4">
+                <p class="info_title">Subcribe Newsletter</p>
+
+                <p class="info_des div_4">
+                  Join awesome subscribers and update <br />
+                  yourself with our exclusive news.
+                </p>
+                <form>
+                  <input
+                    class="subcribe_email"
+                    type="email"
+                    placeholder="Enter Your Email"
+                    required
+                  />
+                </form>
+                <div class="btn_div">
+                  <button class="subcribe_btn">Subcribe Now</button>
+                </div>
+
+                <div class="bottom_social">
+                  <ul class="text_center">
+                    <li>
+                      <a href="index.html#" target="_blank"
+                        ><i class="fab fa-facebook company_link"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="index.html#" target="_blank"
+                        ><i class="fab fa-twitter company_link"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="index.html#" target="_blank"
+                        ><i class="fab fa-instagram company_link"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="index.html#" target="_blank"
+                        ><i class="fab fa-skype company_link"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="index.html#" target="_blank"
+                        ><i class="fab fa-linkedin company_link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ============== End contact Section ========== -->
+    <footer>
+      <div class="container_footer">
+        <p>
+          Copyright © 2022 Pirthe Property Care. All rights reserved. Developed
+          by
+          <a href="http://asitsl.com/" class="footer_color"> ASIT</a>
+        </p>
+      </div>
+    </footer>
 
     <!-- ==============All JS Link -->
     <!-- Swiper JS  for banner-->
@@ -1395,15 +2252,11 @@
     <script>
       var swiper = new Swiper(".swiper_image_card", {
         slidesPerView: 3,
-        spaceBetween: 40,
+        spaceBetween: 60,
         loop: true,
-        speed: 1000,
+        speed: 650,
         autoplay: {
-          delay: 2000,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+          delay: 300,
         },
         breakpoints: {
           320: {
@@ -1421,6 +2274,29 @@
         },
       });
     </script>
+
+    <!-- Swiper JS for blog post -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".full_blog_content", {
+        slidesPerView: 3,
+
+        spaceBetween: 30,
+        loop: true,
+
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
     <!-- js -->
     <script src="index.js"></script>
   </body>

@@ -67,3 +67,66 @@ tabTechnology.addEventListener("click", () => {
   const fullTechnology = document.getElementById("technology");
   fullTechnology.style.display = "grid";
 });
+
+
+
+// for work button 
+const valuableButton =document.getElementById("valuable_project");
+const erpButton = document.getElementById("erp_button");
+const desktopButton = document.getElementById("desktop_button");
+const webButton = document.getElementById("web_button");
+const mobileButton = document.getElementById("mobile_button");
+
+valuableButton.addEventListener("click", () => {
+  let allWork = document.querySelectorAll(".work_hide");
+
+  allWork.forEach((offer) => {
+    offer.style.display = "none";
+  });
+  const valuWork = document.getElementById("valuable_work");
+  valuWork.style.display = "grid";
+});
+ 
+
+
+erpButton.addEventListener("click", () => {
+  let allWork = document.querySelectorAll(".work_hide");
+
+  allWork.forEach((offer) => {
+    offer.style.display = "none";
+  });
+  const erpWork = document.getElementById("erp");
+  erpWork.style.display = "grid";
+});
+ 
+
+desktopButton.addEventListener("click", () => {
+  let allWork = document.querySelectorAll(".work_hide");
+
+  allWork.forEach((offer) => {
+    offer.style.display = "none";
+  });
+  const desktopWork = document.getElementById("desktop_app");
+  desktopWork.style.display = "grid";
+});
+
+
+webButton.addEventListener("click", () => {
+  let allWork = document.querySelectorAll(".work_hide");
+
+  allWork.forEach((offer) => {
+    offer.style.display = "none";
+  });
+  const webWork = document.getElementById("web_app");
+  webWork.style.display = "grid";
+});
+
+mobileButton.addEventListener("click", () => {
+  let allWork = document.querySelectorAll(".work_hide");
+
+  allWork.forEach((offer) => {
+    offer.style.display = "none";
+  });
+  const mobileWork = document.getElementById("mobile_app");
+  mobileWork.style.display = "grid";
+});
